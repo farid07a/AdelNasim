@@ -16,6 +16,8 @@ public class Employee {
     private String Deparetement;
     private String Adress;
     private int year;
+    
+    protected int x=10;
 
     public Employee(String Name, String AdresEmail, String Phone, String Deparetement, String Adress, int year) {
         this.Name = Name;
