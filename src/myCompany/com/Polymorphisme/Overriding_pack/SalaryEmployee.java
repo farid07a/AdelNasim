@@ -5,7 +5,7 @@
  */
 package myCompany.com.Polymorphisme.Overriding_pack;
 
-import myCompany.com.JavaOOP.Employee;
+//import myCompany.com.JavaOOP.Employee;
 
 /**
  *
@@ -13,7 +13,11 @@ import myCompany.com.JavaOOP.Employee;
  */
 public class SalaryEmployee extends Employee{
     private float bouns;
-
+    protected int x;
+    /**
+     *same name with parent Class Employe
+     */
+    
     public SalaryEmployee(float bouns, String Name, String AdresEmail, String Phone, String Deparetement, String Adress, int year, float Salary) {
         super(Name, AdresEmail, Phone, Deparetement, Adress, year, Salary);
         this.bouns = bouns;
