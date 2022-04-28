@@ -27,7 +27,7 @@ public class Developer extends Employee{
     }
 
     public Developer(String ProjectName, String Name, String AdresEmail, String Phone, String Deparetement, String Adress, int year) {
-        super(Name, AdresEmail, Phone, Deparetement, Adress, year);// Call Constructor of SuperClass 
+        super(Name, AdresEmail, Phone, Deparetement, Adress, year, year);// Call Constructor of SuperClass 
                                                                     // without Add code Manuly
                                                                     // super () call default constructor
         // Super is first Line in constructor child because the first uses is the parent class not SubClass

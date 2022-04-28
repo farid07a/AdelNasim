@@ -15,17 +15,20 @@ public class Employee {
     private String Phone;
     private String Deparetement;
     private String Adress;
+    private float Salary;
+    
     private int year;
     
     protected int x=10;
 
-    public Employee(String Name, String AdresEmail, String Phone, String Deparetement, String Adress, int year) {
+    public Employee(String Name, String AdresEmail, String Phone, String Deparetement, String Adress, int year,float Salary) {
         this.Name = Name;
         this.AdresEmail = AdresEmail;
         this.Phone = Phone;
         this.Deparetement = Deparetement;
         this.Adress = Adress;
         this.year = year;
+        this.Salary=Salary;
     }
 
     public Employee() {
@@ -60,6 +63,14 @@ public class Employee {
         return Name;
     }
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getX() {
+        return x;
+    }
+
     public String getAdresEmail() {
         return AdresEmail;
     }
@@ -78,6 +89,20 @@ public class Employee {
 
     public int getYear() {
         return year;
+    }
+
+    /**
+     * @return the Salary
+     */
+    public float getSalary() {
+        return Salary;
+    }
+
+    /**
+     * @param Salary the Salary to set
+     */
+    public void setSalary(float Salary) {
+        this.Salary = Salary;
     }
     
     
