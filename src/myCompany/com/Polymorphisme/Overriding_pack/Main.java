@@ -54,6 +54,26 @@ public class Main {
         EmpParentForSalaryEmploy.x=10;
         
         
+        /*************Part Of static Methos with overriding*******************/
+        Employee employe1=new SalaryEmployee();
+        employe1.Printf();
+        /**
+         * output:Base Class 
+         * Static Method Cannot make overriding 
+         */
+        SalaryEmployee employe2=new SalaryEmployee();
+        employe1.Printf();
+        /**
+         * output:Sub Class 
+         * In this Case when the object not created with parent class 
+         * or not used any feature of parent class 
+         * Static method used by sub class and hide the method of parent
+         */
+        Employee employe11=new Employee();
+        employe1.Printf();
+        
+        SalaryEmployee employe22=new SalaryEmployee();
+        employe1.Printf();
         
     }
     

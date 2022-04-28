@@ -34,6 +34,10 @@ public class Employee {
     public Employee() {
         System.out.println("Default Constructor Employee");
     }
+    
+    public static void Printf(){
+        System.out.println("Base - Class");
+    }
 
     public void setName(String Name) {
         this.Name = Name;

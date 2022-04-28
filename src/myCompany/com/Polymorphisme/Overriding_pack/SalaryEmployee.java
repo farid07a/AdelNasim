@@ -23,6 +23,13 @@ public class SalaryEmployee extends Employee{
         this.bouns = bouns;
     }
 
+    public SalaryEmployee() {
+    }
+    
+    public static void Printf(){
+        System.out.println("Sub - Class");
+    }
+    
     public float getBouns() {
         return bouns;
     }
