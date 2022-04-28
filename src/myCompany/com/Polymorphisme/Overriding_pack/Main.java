@@ -5,7 +5,7 @@
  */
 package myCompany.com.Polymorphisme.Overriding_pack;
 
-//import myCompany.com.JavaOOP.Employee;
+import myCompany.com.JavaOOP.Employee;
 
 /**
  *
@@ -48,10 +48,10 @@ public class Main {
          * 
          * But when create GetBonus Method in parent class (Common method ) parent can access
          */
-        Employee EmpParentForSalaryEmploy=new SalaryEmployee(200," Name", "AdresEmail", "Phone", "Deparetement"," Adress", 1989, 0);
+        Employee EmpParentForSalaryEmploy=new SalaryEmployee(200.0f," Name", "AdresEmail", "Phone", "Deparetement"," Adress", 1989, 0);
         
         //EmpParentForSalaryEmploy.getbonus(); error cannot find getBonus()
-        EmpParentForSalaryEmploy.x
+        EmpParentForSalaryEmploy.x=10;
         
         
         

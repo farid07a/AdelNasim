@@ -19,7 +19,7 @@ public class Employee {
     
     private int year;
     
-    protected int x=10;
+    public int x;
 
     public Employee(String Name, String AdresEmail, String Phone, String Deparetement, String Adress, int year,float Salary) {
         this.Name = Name;
